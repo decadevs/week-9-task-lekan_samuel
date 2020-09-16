@@ -1,0 +1,86 @@
+[
+    {
+        "merged": "/Users/user/AndroidStudioProjects/Pokemoon/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/user/AndroidStudioProjects/Pokemoon/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/user/AndroidStudioProjects/Pokemoon/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/user/AndroidStudioProjects/Pokemoon/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/user/AndroidStudioProjects/Pokemoon/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/user/AndroidStudioProjects/Pokemoon/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/user/AndroidStudioProjects/Pokemoon/app/build/intermediates/res/merged/debug/font_pokemon_solid.ttf.flat",
+        "source": "/Users/user/AndroidStudioProjects/Pokemoon/app/src/main/res/font/pokemon_solid.ttf"
+    },
+    {
+        "merged": "/Users/user/AndroidStudioProjects/Pokemoon/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/user/AndroidStudioProjects/Pokemoon/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/user/AndroidStudioProjects/Pokemoon/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/user/AndroidStudioProjects/Pokemoon/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/user/AndroidStudioProjects/Pokemoon/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/user/AndroidStudioProjects/Pokemoon/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/user/AndroidStudioProjects/Pokemoon/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/user/AndroidStudioProjects/Pokemoon/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/user/AndroidStudioProjects/Pokemoon/app/build/intermediates/res/merged/debug/drawable_poke_holder.png.flat",
+        "source": "/Users/user/AndroidStudioProjects/Pokemoon/app/src/main/res/drawable/poke_holder.png"
+    },
+    {
+        "merged": "/Users/user/AndroidStudioProjects/Pokemoon/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/user/AndroidStudioProjects/Pokemoon/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/user/AndroidStudioProjects/Pokemoon/app/build/intermediates/res/merged/debug/font_pokemon_hollow.ttf.flat",
+        "source": "/Users/user/AndroidStudioProjects/Pokemoon/app/src/main/res/font/pokemon_hollow.ttf"
+    },
+    {
+        "merged": "/Users/user/AndroidStudioProjects/Pokemoon/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/user/AndroidStudioProjects/Pokemoon/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/user/AndroidStudioProjects/Pokemoon/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/user/AndroidStudioProjects/Pokemoon/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/user/AndroidStudioProjects/Pokemoon/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/Users/user/AndroidStudioProjects/Pokemoon/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/user/AndroidStudioProjects/Pokemoon/app/build/intermediates/res/merged/debug/layout_pokemon_template.xml.flat",
+        "source": "/Users/user/AndroidStudioProjects/Pokemoon/app/src/main/res/layout/pokemon_template.xml"
+    },
+    {
+        "merged": "/Users/user/AndroidStudioProjects/Pokemoon/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/user/AndroidStudioProjects/Pokemoon/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/user/AndroidStudioProjects/Pokemoon/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/user/AndroidStudioProjects/Pokemoon/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/user/AndroidStudioProjects/Pokemoon/app/build/intermediates/res/merged/debug/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/user/AndroidStudioProjects/Pokemoon/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/user/AndroidStudioProjects/Pokemoon/app/build/intermediates/res/merged/debug/layout_activity_pokey_detail.xml.flat",
+        "source": "/Users/user/AndroidStudioProjects/Pokemoon/app/src/main/res/layout/activity_pokey_detail.xml"
+    },
+    {
+        "merged": "/Users/user/AndroidStudioProjects/Pokemoon/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/user/AndroidStudioProjects/Pokemoon/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/user/AndroidStudioProjects/Pokemoon/app/build/intermediates/res/merged/debug/drawable_pokemon_bg.png.flat",
+        "source": "/Users/user/AndroidStudioProjects/Pokemoon/app/src/main/res/drawable/pokemon_bg.png"
+    }
+]

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pokemoon</string>
+    <string name="pokemon_name">Pokemon Name</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="height">H:</string>
+    <string name="weight">W:</string>
+    <string name="types">"Types: "</string>
+    <string name="stats">"Stats: "</string>
+    <string name="sprites">"Sprites: "</string>
+    <string name="species">"Species: "</string>
+    <string name="order">"Order: "</string>
+    <string name="movies_list">"Movies List: "</string>
+    <string name="location_area">"Location Area Encounters: "</string>
+    <string name="held_items">"Held Items: "</string>
+    <string name="game_indices">"Game Indices: "</string>
+    <string name="form_list">"Form: "</string>
+    <string name="base_exp">"Base experience: "</string>
+    <string name="abilities">"Abilities: "</string>
+    <string name="refresh">CLICK TO REFRESH</string>
+    <string name="set_limit">SET LIMIT</string>
+</resources>

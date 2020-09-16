@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PokeyDetail">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="242dp"
+        android:background="#E6DEDE"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+    </LinearLayout>
+
+    <!-- ImageView for the Pokemon Image placeholder where
+        the incoming image will be glided into using GLIDE
+    -->
+    <ImageView
+        android:id="@+id/pokey_image"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_weight="1"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"
+        app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:srcCompat="@drawable/poke_holder" />
+
+    <!-- TextView for Displaying the Name of the Pokemon-->
+    <TextView
+        android:id="@+id/pokey_new_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:fontFamily="@font/pokemon_solid"
+        android:text="@string/pokemon_name"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toTopOf="@+id/pokey_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <!-- TextView for Height of the Pokemon-->
+    <TextView
+        android:id="@+id/height"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="@string/height"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.788"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.112" />
+
+    <!-- TextView for Weight of the Pokemon-->
+    <TextView
+        android:id="@+id/weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="52dp"
+        android:background="@color/colorAccent"
+        android:text="@string/weight"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/height"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <!-- Nested Scrollview to allow for smooth scrolling as data populates-->
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="409dp"
+        android:layout_height="387dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pokey_image">
+
+        <!--Inner Linear Layout for the Nested ScrollView-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <!-- TextView for List of Abilities-->
+            <TextView
+                android:id="@+id/abilities_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="textStart"
+                android:paddingStart="24dp"
+                android:paddingEnd="24dp"
+                android:textSize="20sp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="italic"
+                android:text="@string/abilities" />
+
+            <!-- TextView for Base Experience-->
+            <TextView
+                android:id="@+id/baseExperience_int"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="textStart"
+                android:paddingBottom="10dp"
+                android:paddingStart="24dp"
+                android:paddingEnd="24dp"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="italic"
+                android:text="@string/base_exp" />
+
+            <!-- TextView for List of Forms-->
+            <TextView
+                android:id="@+id/form_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="textStart"
+                android:paddingBottom="10dp"
+                android:paddingStart="24dp"
+                android:paddingEnd="24dp"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="italic"
+                android:text="@string/form_list" />
+
+            <!-- TextView for List of Game Indices-->
+            <TextView
+                android:id="@+id/game_indices_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="textStart"
+                android:paddingStart="24dp"
+                android:paddingEnd="24dp"
+                android:paddingBottom="10dp"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="italic"
+                android:text="@string/game_indices" />
+
+            <!-- TextView for List of Items Held-->
+            <TextView
+                android:id="@+id/held_items_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="textStart"
+                android:paddingStart="24dp"
+                android:paddingEnd="24dp"
+                android:paddingBottom="10dp"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="italic"
+                android:text="@string/held_items" />
+
+            <!-- TextView for List of Moves-->
+            <TextView
+                android:id="@+id/moves_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="textStart"
+                android:paddingStart="24dp"
+                android:paddingEnd="24dp"
+                android:paddingBottom="10dp"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="italic"
+                android:text="@string/movies_list" />
+
+            <!-- TextView for Order-->
+            <TextView
+                android:id="@+id/order"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="textStart"
+                android:paddingStart="24dp"
+                android:paddingEnd="24dp"
+                android:paddingBottom="10dp"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="italic"
+                android:text="@string/order" />
+
+            <!-- TextView for Species-->
+            <TextView
+                android:id="@+id/species"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="textStart"
+                android:paddingStart="24dp"
+                android:paddingEnd="24dp"
+                android:paddingBottom="10dp"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="italic"
+                android:text="@string/species" />
+
+            <!-- TextView for Stats-->
+            <TextView
+                android:id="@+id/stats"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="textStart"
+                android:paddingStart="24dp"
+                android:paddingEnd="24dp"
+                android:paddingBottom="10dp"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="italic"
+                android:text="@string/stats" />
+
+            <!-- TextView for Types-->
+            <TextView
+                android:id="@+id/types"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="textStart"
+                android:paddingStart="24dp"
+                android:paddingEnd="24dp"
+                android:paddingBottom="10dp"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="italic"
+                android:text="@string/types" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
